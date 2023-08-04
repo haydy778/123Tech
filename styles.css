@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap");
+
+html {
+  background-color: white;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: rgb(184 115 84/ 30%) !important;
+}
+
+* {
+  margin: 0px;
+  padding: 0px 0px;
+  box-sizing: border-box;
+}
+
+/* Announcement Bar CSS */
+
+.announcement-bar{
+  width: 100%;
+  height: 2.5em;
+  background-color: #606060;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.announcement-text-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.announcement-text-container span{
+  color: white;
+  font-family: Tiemann, sans-serif;
+  letter-spacing: 2px;
+  font-size: 1em;
+  text-decoration-line: none;
+}
+
+/* Navbar CSS */
+
+.header-two{
+  position: relative;
+  width: 100%;
+  z-index: 100;
+}
+
+header {
+  background-color: #fff;
+  user-select: none;
+}
+
+.navigation-bar{
+  background-image: url('Website/Nav\ img.jpg') !important;
+}
+
+.logotext {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+}
+
+.navbar.one {
+  justify-content: space-between !important;
+  padding: 25px 35px;
+  padding-bottom: 10px;
+  height: 125px;
+}
+
+.navbar.one a {
+  font-size: 1.7em;
+}
+
+.navbar a {
+  color: black;
+  font-family: "montserrat", sans-serif;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+  text-decoration-line: none;
+  text-transform: uppercase;
+}
+
+.dropdown-menu-name:hover .dropdown-menu-header.drop{
+  display: block;
+}
+
+.dropdown-menu-header.drop {
+  position: absolute;
+  display: none;
+  list-style-type: none;
+  text-align: center;
+  width: 250px;
+  background-color: white;
+  padding: 20px 0px;
+  margin-left: -60px;
+  transition: all 0.5s !important;
+}
+
+.header-menu__dropdown-nav li{
+  margin: 10px 10px;
+}
+
+.contactbtn {
+  list-style-type: none;
+  flex-direction: row;
+  width: 140px;
+  margin-bottom: 5px;
+  margin-left: 100px;
+  border: 1px solid;
+}
+
+.navbar-item.bag {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: 140px;
+  margin-bottom: 5px;
+  margin-right: 100px;
+  transition: all 0.5s;
+}
+
+.navbar-a-item.bag::after {
+  opacity: 0;
+  height: 0;
+}
+
+.navbar-a-item.bag {
+  width: 10px;
+  transition: all 0.5s;
+}
+
+.contactbtn a {
+  font-size: 0.8em !important;
+  padding: 10px 10px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactbtn {
+  transition: all 0.5s;
+}
+
+.navbar-item.bag:focus::after {
+  opacity: 0;
+}
+
+.logoimage:focus::after {
+  opacity: 0;
+}
+
+.navbar-item.bag i:hover {
+  transform: scale(1.2);
+}
+
+.navbar-item.bag i {
+  transition: all 0.5s;
+}
+
+.contactbtn:hover {
+  transform: scale(1.07);
+}
+
+.navbar.two {
+  padding: 20px 15px;
+  padding-top: 3px;
+  justify-content: center !important;
+}
+
+.navbar.two a {
+  padding: 0px;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.navbar.two li {
+  padding: 15px;
+  padding-bottom: 0px;
+}
+
+.navbar-a-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.15em;
+  padding-top: 0px;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.7s, transform 0.7s;
+  transition-property: right, 0.5s;
+}
+
+.navbar-a-item:hover::after,
+.navbar-a-item:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+
+.navbar-a-item::after {
+  opacity: 1;
+  transform: scale(0);
+  transform-origin: left;
+}
+
+.navbar-a-item:hover::after,
+.navbar-a-item:focus::after {
+  transform: scale(1);
+}
+
+@media screen and (max-width: 1090px) {
+  .header-menu__dropdown-nav.contactbtn {
+    margin-left: 15px;
+  }
+  .navbar-item.bag {
+    margin-right: 15px;
+  }
+}
+
+/* Nav Info */
+
+@font-face {
+  font-family: Tiemann;
+  src: url(Tiemann\ Roman.ttf);
+}
+
+.bannner-container {
+  overflow: hidden;
+  height: 90vh;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.banner-caption {
+  top: 50% !important;
+  position: absolute;
+  left: 10%;
+}
+
+.banner {
+  height: 90vh;
+  width: 100%;
+  float: left;
+  min-height: 350px;
+  background: no-repeat center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: all 0.5s;
+  background-color: #f5f5f5;
+}
