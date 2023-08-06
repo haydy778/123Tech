@@ -76,11 +76,11 @@ header {
   justify-content: space-between !important;
   padding: 25px 35px;
   padding-bottom: 10px;
-  height: 125px;
+  height: 120px;
 }
 
 .navbar.one a {
-  font-size: 1.7em;
+  font-size: 1.4em;
 }
 
 .navbar a {
@@ -116,28 +116,31 @@ header {
   list-style-type: none;
   flex-direction: row;
   width: 140px;
-  margin-bottom: 5px;
-  margin-left: 100px;
+  margin-bottom: 10px;
+  margin-right: 120px;
   border: 1px solid;
 }
 
-.navbar-item.bag {
+.navbar-item.icons {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  width: 140px;
-  margin-bottom: 5px;
-  margin-right: 100px;
+  width: 170px;
+  margin-bottom: 10px;
+  margin-left: 80px;
   transition: all 0.5s;
 }
 
-.navbar-a-item.bag::after {
+.navbar-item.icon{
+  margin-right: 30px;
+}
+
+.navbar-a-item.icon::after {
   opacity: 0;
   height: 0;
 }
 
-.navbar-a-item.bag {
-  width: 10px;
+.navbar-a-item.icon {
   transition: all 0.5s;
 }
 
@@ -164,11 +167,11 @@ header {
   opacity: 0;
 }
 
-.navbar-item.bag i:hover {
+.navbar-item.icon i:hover {
   transform: scale(1.2);
 }
 
-.navbar-item.bag i {
+.navbar-item.icon i {
   transition: all 0.5s;
 }
 
@@ -242,19 +245,20 @@ header {
 
 .bannner-container {
   overflow: hidden;
-  height: 90vh;
+  height: 80vh;
   background-color: #f5f5f5;
   width: 100%;
 }
 
 .banner-caption {
-  top: 50% !important;
+  top: 48% !important;
   position: absolute;
-  left: 10%;
+  left: 7%;
+  color: white !important;
 }
 
 .banner {
-  height: 90vh;
+  height: 80vh;
   width: 100%;
   float: left;
   min-height: 350px;
@@ -265,4 +269,58 @@ header {
   background-size: cover;
   transition: all 0.5s;
   background-color: #f5f5f5;
+}
+
+.banner-title {
+  font-family: Tiemann, serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: #ffffffea;
+  font-size: 2.5em;
+  text-shadow: 0 1px 3px rgb(0 0 0 / 15%);
+  max-width: 800px;
+}
+
+.banner-text {
+  font-family: "montserrat", serif;
+  color: #ffffffea;
+  letter-spacing: 2px;
+  font-size: 1em;
+  text-shadow: 0 1px 3px rgb(0 0 0 / 15%);
+  max-width: 500px;
+  margin-top: 0.8em;
+}
+
+.banner-text.two {
+  color: #844e4e;
+  font-size: 1.2em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.banner-button-container {
+  margin-top: 3em;
+  font-family: "montserrat", sans-serif;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+.banner-button {
+  padding: 1em 1.8em;
+  color: #ffffffea;
+  background-color: #723939;
+  text-decoration-line: none;
+  box-shadow: rgba(50, 50, 93, 0.15) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
+  transition: all 0.3s;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+.banner-button:hover {
+  background-color: #606060;
 }
