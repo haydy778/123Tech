@@ -8,7 +8,7 @@ html {
 }
 
 ::selection {
-  background-color: rgb(184 115 84/ 30%) !important;
+  background-color: #72393969 !important;
 }
 
 * {
@@ -323,4 +323,86 @@ header {
 
 .banner-button:hover {
   background-color: #606060;
+}
+
+/* Title */
+
+.collections-text-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 4em;
+}
+
+.collections-text-container h6 {
+  font-family: "montserrat", sans-serif;
+  font-size: 1em;
+  letter-spacing: 2px;
+  color: #723939;
+  text-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+}
+.collections-text-container h1 {
+  font-family: Tiemann, serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: black;
+  font-size: 2.7em;
+  text-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+  text-transform: uppercase;
+}
+
+/* Collections */
+.colle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.colle-item.portrait {
+  width: 500px;
+  height: 632px;
+}
+
+.colle-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  background: no-repeat center scroll;
+  background-size: cover;
+  margin-right: 2em;
+  margin: 1em;
+}
+
+.colle-container-inner {
+  display: flex;
+  flex-direction: row;
+}
+
+.colle-button-container {
+  font-family: "montserrat", sans-serif;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+.colle-button {
+  border-radius: 0px;
+  background-color: #723939cb !important;
+  padding: 0.8em 1.8em;
+  color: white;
+  background-color: transparent;
+  text-decoration-line: none;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+.colle-button:hover {
+  background-color: #606060 !important;
+}
+
+.button-container.two {
+  margin-top: 5em;
 }
