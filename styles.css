@@ -125,9 +125,9 @@ header {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  width: 170px;
+  width: 115px;
   margin-bottom: 10px;
-  margin-left: 80px;
+  margin-left: 140px;
   transition: all 0.5s;
 }
 
