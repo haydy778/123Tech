@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap");
 
 html {
-  background-color: white;
+  background-color: #ebebeb;
   overflow-x: hidden;
   overscroll-behavior: none;
   scroll-behavior: smooth;
@@ -51,7 +51,7 @@ html {
 }
 
 header {
-  background-color: #fff;
+  background-color: #ebebeb;
   user-select: none;
 }
 
@@ -93,19 +93,20 @@ header {
 }
 
 .dropdown-menu-name:hover .dropdown-menu-header.drop{
-  display: block;
+  opacity: 1;
 }
 
 .dropdown-menu-header.drop {
   position: absolute;
-  display: none;
+  opacity: 0;
   list-style-type: none;
   text-align: center;
   width: 250px;
-  background-color: white;
+  background-color: #ebebeb;
   padding: 20px 0px;
   margin-left: -60px;
   transition: all 0.5s !important;
+
 }
 
 .header-menu__dropdown-nav li{
@@ -207,7 +208,7 @@ header {
   background-color: black;
   opacity: 0;
   transition: opacity 0.7s, transform 0.7s;
-  transition-property: right, 0.5s;
+  transition-property: center, 0.5s;
 }
 
 .navbar-a-item:hover::after,
@@ -219,11 +220,42 @@ header {
 .navbar-a-item::after {
   opacity: 1;
   transform: scale(0);
-  transform-origin: left;
+  transform-origin: center;
 }
 
 .navbar-a-item:hover::after,
 .navbar-a-item:focus::after {
+  transform: scale(1);
+}
+
+.dropdown-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.08em;
+  padding-top: 0px;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.7s, transform 0.7s;
+  transition-property: center, 0.5s;
+}
+
+.dropdown-item:hover::after,
+.dropdown-item:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+
+.dropdown-item::after {
+  opacity: 1;
+  transform: scale(0);
+  transform-origin: center;
+}
+
+.dropdown-item:hover::after,
+.dropdown-item:focus::after {
   transform: scale(1);
 }
 
@@ -322,8 +354,10 @@ header {
 }
 
 .banner-button:hover {
-  background-color: #606060;
+  background-color: #656568;
 }
+
+
 
 /* Title */
 
@@ -352,16 +386,56 @@ header {
   text-transform: uppercase;
 }
 
+/* About Us */
+.about-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 5em;
+}
+
+.about-text{
+  max-width: 600px;
+}
+
+.about-text h1{
+  font-family: Tiemann, serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: black;
+  font-size: 2.7em;
+}
+
+.about-text p{
+  font-family: "montserrat", sans-serif;
+  font-size: 1em;
+  letter-spacing: 1px;
+  color: black;
+  text-transform: none;
+}
+
 /* Collections */
+
+.colle-p{
+  color: #723939 !important;
+}
+
+.colle-background{
+  background-color: #ddd7cc;
+  width: 100%;
+}
+
 .colle-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  padding: 1.5em;
 }
 
 .colle-item.portrait {
-  width: 500px;
+  width: 420px;
   height: 632px;
 }
 
@@ -376,6 +450,18 @@ header {
   margin-right: 2em;
   margin: 1em;
 }
+
+/* .colle-item.landscape{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 632px !important;
+  height: 300px;
+  background: no-repeat center scroll;
+  background-size: cover;
+  margin-right: 2em;
+  margin: 1em;
+} */
 
 .colle-container-inner {
   display: flex;
@@ -400,9 +486,10 @@ header {
 }
 
 .colle-button:hover {
-  background-color: #606060 !important;
+  background-color: #656568 !important;
 }
 
 .button-container.two {
   margin-top: 5em;
 }
+
