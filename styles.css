@@ -102,7 +102,7 @@ header {
   list-style-type: none;
   text-align: center;
   width: 250px;
-  background-color: #f0f0f0;
+  background-color: white;
   padding: 20px 0px;
   margin-left: -60px;
   transition: all 0.5s !important;
@@ -386,60 +386,12 @@ header {
   text-transform: uppercase;
 }
 
-/* About Us */
-.about-container{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  margin-top: -2em;
-  margin-bottom: 3em;
-}
-
-.about-text{
-  max-width: 600px;
-}
-
-.about-text h1{
-  font-family: "Tiemann", serif;
-  font-weight: 100;
-  letter-spacing: 3px;
-  color: black;
-  font-size: 2em;
-  margin-bottom: 0.5em;
-}
-
-.about-text p{
-  font-family: "montserrat", sans-serif;
-  font-size: 1em;
-  letter-spacing: 1px;
-  color: black;
-  text-transform: none;
-  line-height: 25px;
-}
-
-.about-image img{
-  height: 40em;
-}
-
 /* Collections */
-
-.colle-p{
-  color: #723939 !important;
-}
-
-.colle-background{
-  background-color: #c9c9c9;
-  width: 100%;
-}
-
 .colle-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  padding: 1em;
-  padding-bottom: 4em;
 }
 
 .colle-item.portrait {
