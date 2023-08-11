@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap");
 
 html {
-  background-color: #f0f0f0;
+  background-color: #fff;
   overflow-x: hidden;
   overscroll-behavior: none;
   scroll-behavior: smooth;
@@ -51,7 +51,7 @@ html {
 }
 
 header {
-  background-color: #f0f0f0;
+  background-color: #ebebeb;
   user-select: none;
 }
 
@@ -102,7 +102,7 @@ header {
   list-style-type: none;
   text-align: center;
   width: 250px;
-  background-color: white;
+  background-color: #ebebeb;
   padding: 20px 0px;
   margin-left: -60px;
   transition: all 0.5s !important;
@@ -211,6 +211,10 @@ header {
   transition-property: center, 0.5s;
 }
 
+.header-menu__dropdown-nav li{
+  list-style-type: none !important;
+}
+
 .navbar-a-item:hover::after,
 .navbar-a-item:focus::after {
   opacity: 1;
@@ -240,6 +244,7 @@ header {
   opacity: 0;
   transition: opacity 0.7s, transform 0.7s;
   transition-property: center, 0.5s;
+  list-style-type: none;
 }
 
 .dropdown-item:hover::after,
@@ -386,12 +391,60 @@ header {
   text-transform: uppercase;
 }
 
+/* About Us */
+.about-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-top: -2em;
+  margin-bottom: 3em;
+}
+
+.about-text{
+  max-width: 600px;
+}
+
+.about-text h1{
+  font-family: "Tiemann", serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: black;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.about-text p{
+  font-family: "montserrat", sans-serif;
+  font-size: 1em;
+  letter-spacing: 1px;
+  color: black;
+  text-transform: none;
+  line-height: 25px;
+}
+
+.about-image img{
+  height: 35em;
+}
+
 /* Collections */
+
+.colle-p{
+  color: #723939 !important;
+}
+
+.colle-background{
+  background-color: #dedede;
+  width: 100%;
+}
+
 .colle-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  padding: 1em;
+  padding-bottom: 4em;
 }
 
 .colle-item.portrait {
@@ -453,3 +506,32 @@ header {
   margin-top: 5em;
 }
 
+.photos-one-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0em;
+}
+
+.photos-two-container{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5em;
+}
+/* 
+.gallery{
+  float: right;
+  position: absolute;
+  height: 300vh;
+  width: 30%;
+  min-height: 350px;
+  background: no-repeat center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url('Images/bg-image.jpeg');
+} */
