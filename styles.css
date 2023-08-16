@@ -549,7 +549,8 @@ header {
 }
 
 .text-container h1{
-  font-family: Tiemann;
+  font-family: Tiemann; 
+  letter-spacing: 3px;
 }
 
 .text-container p{
@@ -566,7 +567,7 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 45vh;
+  height: 40vh;
 }
 
 .footer-image-container{
