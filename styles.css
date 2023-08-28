@@ -567,7 +567,7 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 40vh;
+  height: 50vh;
 }
 
 .footer-image-container{
