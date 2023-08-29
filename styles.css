@@ -394,7 +394,7 @@ header {
 /* About Us */
 .about-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
   margin-top: -2em;
@@ -403,6 +403,7 @@ header {
 
 .about-text{
   max-width: 600px;
+  margin-left: 3em;
 }
 
 .about-text h1{
@@ -423,6 +424,10 @@ header {
   line-height: 25px;
 }
 
+.about-image{
+  margin-right: 3em;
+}
+
 .about-image img{
   height: 35em;
 }
@@ -436,6 +441,10 @@ header {
 .colle-background{
   background-color: #dedede;
   width: 100%;
+}
+
+.colle-background.two{
+  background-color: #f5f5f5;
 }
 
 .colle-container {
