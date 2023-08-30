@@ -399,6 +399,7 @@ header {
   flex-direction: row;
   margin-top: -2em;
   margin-bottom: 3em;
+  color: white;
 }
 
 .about-text{
@@ -728,12 +729,6 @@ footer{
 
 * {
   box-sizing: border-box;
-}
-
-/* Set a background color */
-body {
-  background-color: #474e5d;
-  font-family: Helvetica, sans-serif;
 }
 
 /* The actual timeline (the vertical ruler) */
