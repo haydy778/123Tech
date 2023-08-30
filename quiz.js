@@ -5,45 +5,45 @@ var highScore = 0;
 
 //array for questions
 const questions = [
-  "How many pieces are there on a chess board in total?",
-  "Which piece can only move diagonally?",
-  "Which two pieces do you use to 'castle'?",
-  "Which piece can a pawn not promote into?",
-  "Which piece is used for en passant?",
-  "What is the least number of moves needed for checkmate?",
-  "What opening starts with c4?",
-  "What is the first move of the Bird's Opening?",
-  "How long was the longest known chess game?",
-  "Which computer won the first game against a GM?"
+  "In which year was Southland Boys' High School founded?",
+  "Who was the architect responsible for designing the school's original plans and also designed the First Church?",
+  "What was the intended purpose of the top floor of the school, according to the original plans?",
+  "When did the pupils suggest the idea of creating a room for a Museum at the school?",
+  "Where is the Museum installed at the moment?",
+  "What event prompted the installation of the Museum in the Band Room?",
+  "How many All Blacks has the school produced?",
+  "Who was the rector 2001?",
+  "What tragic event is commemorated by two Honours Boards in the Museum?",
+  "Where was Southland Boys High School located before it moved to it’s current location?"
 ]
 
 //array for options given for each question
 const options = [
-  ["16", "32", "28", "64"],
-  ["Pawn", "Rook", "Bishop", "Queen"],
-  ["King & Rook", "Queen & Rook", "Two Rooks", "King & Queen"],
-  ["King", "Queen", "Knight", "Bishop"],
-  ["Queen", "Bishop", "King", "Pawn"],
-  ["3", "2", "4", "6"],
-  ["English Opening", "Scandinavian Opening", "French Defense", "Vienna Gambit"],
-  ["c3", "d3", "f4", "e4"],
-  ["307 moves", "171 moves", "269 moves", "195 moves"],
-  ["Super Knight", "Deep Blue", "Still Knight", "Deep Thought"],
+  ["1867", "1881", "1905", "2006"],
+  ["John T Mair", "Lynley Dear", "Geoffrey Cox", "David Strang"],
+  ["Library", "Auditorium", "Gymnasium", "Museum"],
+  ["1905", "1881", "2006", "1954"],
+  ["The Band Room", "The Sports Pavillion", "Pearce Block", "Off site"],
+  ["Closure of intermediate schools", "The school's 125th reunion ", "Introduction of new historical curriculum", "Architect's recommendation"],
+  ["2", "45", "30", "22"],
+  ["Mr Grant ", "Mr Pearce", "Mr Coe", "Mr Baldwin"],
+  ["The closure of intermediate schools", "The school's 125th reunion", "The architect's retirement ", "Students killed in both World Wars"],
+  ["Tweed Street", "Herbert Street", "Forth Street", "Layard Street"],
 
 ]
 
 //array for answers
 const answers = [
   2,
-  3,
-  1,
   1,
   4,
-  2,
   1,
   3,
-  3,
-  4
+  2,
+  4,
+  4,
+  4,
+  3
 ]
 
 
