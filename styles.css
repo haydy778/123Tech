@@ -906,3 +906,17 @@ footer{
     rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
   transition: all 0.3s;
 }
+
+
+#choose1, #choose2, #choose3, #choose4, #nextQuestion, #checkAnswer, #restart, #start, #result, #result2 {
+    font-family: "montserrat", sans-serif;
+    
+}
+
+
+    
+#choose1, #choose2, #choose3, #choose4, #nextQuestion, #checkAnswer, #restart, #start, #result, #result2 {
+  font-family: "montserrat", sans-serif;
+  
+}
+
