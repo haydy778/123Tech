@@ -856,3 +856,17 @@ footer{
     left: 0%;
   }
 }
+
+
+#choose1, #choose2, #choose3, #choose4, #nextQuestion, #checkAnswer, #restart, #start, #result, #result2 {
+    font-family: "montserrat", sans-serif;
+    
+}
+
+
+    
+#choose1, #choose2, #choose3, #choose4, #nextQuestion, #checkAnswer, #restart, #start, #result, #result2 {
+  font-family: "montserrat", sans-serif;
+  
+}
+
