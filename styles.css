@@ -6,6 +6,8 @@ html {
   overscroll-behavior: none;
   scroll-behavior: smooth;
 }
+    
+
 
 ::selection {
   background-color: #72393969 !important;
@@ -855,68 +857,9 @@ footer{
   .right {
     left: 0%;
   }
-}
+}    
 
-.collections-grid{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  gap: 3em;
-  margin-bottom: 4em;
-}
-
-.collections-object{
-  width: 500px;
-  height: 500px;
-}
-
-.collections-object h1{
-  font-family: Tiemann;
-  font-size: 30px;
-  margin-top: 5px;
-}
-
-.collections-object p{
-  font-family: 'montserrat';
-  font-size: 15px;
-  max-width: 400px;
-  margin-top: 5px;
-}
-
-.collection-img img{
-  height: auto;
-  width: 500px;
-  height: 330px;
-}
-
-.banner-button-container.two{
-  margin-top: 2em !important;
+#choose1, #choose2, #choose3, #choose4, #nextQuestion, #checkAnswer, #restart, #start, #result, #result2, #option1, #option2, #option3, #option4, #questions {
   font-family: "montserrat", sans-serif;
-  font-size: 0.8em !important;
-  letter-spacing: 2px;
+  color: black;
 }
-
-.banner-button.two {
-  padding: 1em 1.5em !important;
-  color: #ffffffea;
-  background-color: #723939;
-  text-decoration-line: none;
-  box-shadow: rgba(50, 50, 93, 0.15) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
-  transition: all 0.3s;
-}
-
-
-#choose1, #choose2, #choose3, #choose4, #nextQuestion, #checkAnswer, #restart, #start, #result, #result2 {
-    font-family: "montserrat", sans-serif;
-    
-}
-
-
-    
-#choose1, #choose2, #choose3, #choose4, #nextQuestion, #checkAnswer, #restart, #start, #result, #result2 {
-  font-family: "montserrat", sans-serif;
-  
-}
-
