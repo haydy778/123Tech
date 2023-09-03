@@ -2,7 +2,17 @@
 var questionNumber = 0;
 var correctAnswerCount = 0;
 var highScore = 0;
+window.onload = function() {
+  document.getElementById("nextQuestion").style.display = "none";
 
+  document.getElementById("checkAnswer").style.display = "none";
+
+  document.getElementById("restart").style.display = "none";
+document.getElementById("choose1").style.display = "none";
+document.getElementById("choose2").style.display = "none";
+document.getElementById("choose3").style.display = "none";
+document.getElementById("choose4").style.display = "none";
+}
 //array for questions
 const questions = [
   "In which year was Southland Boys' High School founded?",
@@ -12,7 +22,7 @@ const questions = [
   "Where is the Museum installed at the moment?",
   "What event prompted the installation of the Museum in the Band Room?",
   "How many All Blacks has the school produced?",
-  "Who was the rector 2001?",
+  "Who was the rector in 2001?",
   "What tragic event is commemorated by two Honours Boards in the Museum?",
   "Where was Southland Boys High School located before it moved to it’s current location?"
 ]
@@ -45,7 +55,25 @@ const answers = [
   4,
   3
 ]
-
+function quizStart() {
+  document.getElementById("choose1").style.display = "block";
+  document.getElementById("choose2").style.display = "block";
+  document.getElementById("choose3").style.display = "block";
+  document.getElementById("choose4").style.display = "block";
+  document.getElementById("option1").style.display = "block";
+  document.getElementById("option2").style.display = "block";
+  document.getElementById("option3").style.display = "block";
+  document.getElementById("option4").style.display = "block";
+  document.getElementById("nextQuestion").style.display = "none";
+  document.getElementById("checkAnswer").style.display = "block";
+  document.getElementById("start").style.display = "none";
+  //show question 1 and options for question 1
+  document.getElementById("questions").innerHTML = questions[0];
+  document.getElementById("option1").innerHTML = options[0][0];
+  document.getElementById("option2").innerHTML = options[0][1];
+  document.getElementById("option3").innerHTML = options[0][2];
+  document.getElementById("option4").innerHTML = options[0][3];
+}
 
 function next() {
   //when next is pressed, hide results and next button, and set colour of labels to blue
@@ -141,3 +169,4 @@ function check() {
 
   }
 }
+

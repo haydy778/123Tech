@@ -6,6 +6,8 @@ html {
   overscroll-behavior: none;
   scroll-behavior: smooth;
 }
+    
+
 
 ::selection {
   background-color: #72393969 !important;
@@ -427,10 +429,11 @@ header {
 
 .about-image{
   margin-right: 3em;
+  margin-bottom: 3em;
 }
 
 .about-image img{
-  height: 17.5em;
+  height: 40.5em;
 }
 
 /* Collections */
@@ -854,4 +857,9 @@ footer{
   .right {
     left: 0%;
   }
+}    
+
+#choose1, #choose2, #choose3, #choose4, #nextQuestion, #checkAnswer, #restart, #start, #result, #result2, #option1, #option2, #option3, #option4, #questions {
+  font-family: "montserrat", sans-serif;
+  color: black;
 }
