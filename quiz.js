@@ -22,7 +22,7 @@ const questions = [
   "Where is the Museum installed at the moment?",
   "What event prompted the installation of the Museum in the Band Room?",
   "How many All Blacks has the school produced?",
-  "Who was the rector 2001?",
+  "Who was the rector in 2001?",
   "What tragic event is commemorated by two Honours Boards in the Museum?",
   "Where was Southland Boys High School located before it moved to it’s current location?"
 ]
