@@ -682,11 +682,11 @@ footer{
 }
 
 .line-1{
-  margin-bottom: 0.7em;
+  margin-bottom: 0.7em !important;
 }
 
 .line-1 hr{
-  height: 1px;
+  height: 1px !important;
   border: none;
 }
 

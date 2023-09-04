@@ -1,7 +1,7 @@
 
 //when hovering over image 1 in gallery, change image to description
 function hover1() {
-    document.getElementById("img1").src = "images/aboutUs1Hover.jpg"
+    document.getElementById("img1").src = "images/museum1Hover.JPG"
   }
   
   //when mouse leaves image, restore original image
