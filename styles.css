@@ -863,3 +863,53 @@ footer{
   font-family: "montserrat", sans-serif;
   color: black;
 }
+
+.collections-grid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 3em;
+  margin-bottom: 4em;
+}
+
+.collections-object{
+  width: 500px;
+  height: 500px;
+}
+
+.collections-object h1{
+  font-family: Tiemann;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.collections-object p{
+  font-family: 'montserrat';
+  font-size: 15px;
+  max-width: 400px;
+  margin-top: 5px;
+}
+
+.collection-img img{
+  height: auto;
+  width: 500px;
+  height: 330px;
+}
+
+.banner-button-container.two{
+  margin-top: 2em !important;
+  font-family: "montserrat", sans-serif;
+  font-size: 0.8em !important;
+  letter-spacing: 2px;
+}
+
+.banner-button.two {
+  padding: 1em 1.5em !important;
+  color: #ffffffea;
+  background-color: #723939;
+  text-decoration-line: none;
+  box-shadow: rgba(50, 50, 93, 0.15) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
+  transition: all 0.3s;
+}
