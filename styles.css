@@ -824,6 +824,7 @@ footer{
   background-color: white;
   position: relative;
   border-radius: 6px;
+  font-size: 140%;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
