@@ -95,13 +95,12 @@ header {
 }
 
 .dropdown-menu-name:hover .dropdown-menu-header.drop{
-  opacity: 1;
+  display: block;
 }
 
 .dropdown-menu-header.drop {
   position: absolute;
-  opacity: 0;
-  list-style-type: none;
+display: none;  list-style-type: none;
   text-align: center;
   width: 250px;
   background-color: #ebebeb;
@@ -540,6 +539,7 @@ header {
   justify-content: center;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -550,6 +550,7 @@ header {
 
 .image-container{
   width: 500px;
+  margin-top: 1em;
 }
 
 .image-container img{
